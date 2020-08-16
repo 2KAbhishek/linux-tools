@@ -8,6 +8,6 @@
 ![Contributors](https://img.shields.io/github/contributors/2kabhishek/linux-tools?style=plastic&color=f0f&label=Contributors)
 ![License](https://img.shields.io/github/license/2kabhishek/linux-tools?style=plastic&color=555&label=License)
 
-Documenting *nix tools I use everyday. :penguin:
+Documenting Linux tools I use everyday. :penguin:
 
 [Visit](https://2kabhishek.github.io/linux-tools)
