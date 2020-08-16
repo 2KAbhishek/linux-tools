@@ -78,3 +78,17 @@ main > section > article > :nth-child(2) {
 main > section > article > :nth-child(1) {
     text-align: justify;
 }
+
+code {
+    display: block;
+    padding: 30px;
+    text-align: justify;
+    background-color: #101015;
+    color: #ddd;
+    border: 2px solid #1688f0;
+    border-radius: 10px;
+    word-break: normal;
+    word-wrap: normal;
+    font-size: 1.1em;
+    line-height: 2;
+}
