@@ -92,3 +92,18 @@ code {
     font-size: 1.1em;
     line-height: 2;
 }
+
+@media only screen and (max-width: 815px) {
+    /* For mobile phones: */
+    nav {
+        position: absolute;
+        width: 99%;
+        max-height: 150px;
+    }
+
+    main {
+        position: relative;
+        margin-top: 150px;
+        margin-left: 0px;
+    }
+}
