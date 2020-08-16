@@ -4,3 +4,77 @@ body {
     font-family: sans;
     line-height: 1.5;
 }
+
+nav {
+    position: fixed;
+    display: block;
+    min-width: 240px;
+    height: 100%;
+    width: 250px;
+    top: 0;
+    left: 0;
+    border: 2px solid #1688f0;
+    background-color: #050505;
+    text-align: center;
+}
+
+nav > header {
+    font-weight: bold;
+    font-size: 1.5em;
+    padding: 15px;
+    border-bottom: 2px solid #bbb;
+}
+
+nav > li {
+    list-style: none;
+    border-bottom: 1px solid #bbb;
+    padding: 10px;
+}
+
+nav a:hover {
+    color: #1688f0;
+}
+
+nav a {
+    display: block;
+    text-decoration: none;
+    color: #eee;
+}
+
+main {
+    position: absolute;
+    text-align: justify;
+    padding: 20px;
+    left: 260px;
+}
+
+section {
+    padding: 40px;
+    padding-top: 0%;
+    text-align: center;
+}
+
+main header {
+    font-weight: bold;
+    font-size: 1.5em;
+    text-align: justify;
+}
+
+main a {
+    color: #1688f0;
+}
+
+main li {
+    list-style: none;
+    padding: 5px;
+}
+
+main > section > article > :nth-child(2) {
+    text-decoration: underline;
+    font-size: 1.1em;
+    margin-bottom: 5px;
+}
+
+main > section > article > :nth-child(1) {
+    text-align: justify;
+}
